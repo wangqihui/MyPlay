@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+
+
+
+        <RelativeLayout
+            android:id="@+id/name_layout"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:focusable="true" >
+
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="用户"
+                />
+
+
+            <EditText
+                android:id="@+id/user_edit"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+
+                android:layout_toRightOf="@id/user_name"
+                android:background="@drawable/shape"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+                android:focusable="false"
+                android:src="@mipmap/under_line_1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_layout"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:focusable="true" >
+
+            <TextView
+                android:id="@+id/password_name"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="密码"
+                />
+
+
+            <EditText
+                android:id="@+id/password_edit"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+
+                android:layout_toRightOf="@id/password_name"
+                android:background="@drawable/shape"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                 />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+                android:focusable="false"
+                android:src="@mipmap/under_line_1" />
+        </RelativeLayout>
+
+
+      <!--  <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal|center"
+          >
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="登陆" />
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal|center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="登陆" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal|center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/insert_btn"
+                android:layout_toRightOf="@id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="插入数据" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal|center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_toRightOf="@id/insert_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="更新数据" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal|center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_toRightOf="@id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="删除数据" />
+        </LinearLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>

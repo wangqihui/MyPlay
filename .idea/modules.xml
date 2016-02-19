@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloStudio.iml" filepath="$PROJECT_DIR$/HelloStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bindertest/bindertest.iml" filepath="$PROJECT_DIR$/bindertest/bindertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facescanning/facescanning.iml" filepath="$PROJECT_DIR$/facescanning/facescanning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netmodel/netmodel.iml" filepath="$PROJECT_DIR$/netmodel/netmodel.iml" />
+    </modules>
+  </component>
+</project>
