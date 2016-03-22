@@ -18,6 +18,12 @@ import com.example.wangqihui.dao.UserDAO;
 import com.example.wangqihui.presenter.UserPresenter;
 import com.example.wangqihui.view.IUserView;
 
+
+
+/*
+* mvp 模式实现demo
+*
+* */
 public class MainActivity extends AppCompatActivity implements IUserView{
 
     public Button button ;

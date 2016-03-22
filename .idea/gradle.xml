@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/bindertest" />
             <option value="$PROJECT_DIR$/facescanning" />
             <option value="$PROJECT_DIR$/netmodel" />
+            <option value="$PROJECT_DIR$/timecount" />
+            <option value="$PROJECT_DIR$/verticaltextview" />
           </set>
         </option>
       </GradleProjectSettings>

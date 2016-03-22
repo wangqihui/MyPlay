@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="倒计时开始"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/electricity_time_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:gravity="center"
+        android:minWidth="24dp"
+        android:padding="3dp"
+        android:textColor="#1A7FCF"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/electricity_time_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:gravity="center"
+        android:minWidth="24dp"
+        android:padding="3dp"
+        android:textColor="#1A7FCF"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/electricity_time_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:gravity="center"
+        android:minWidth="24dp"
+        android:padding="3dp"
+        android:textColor="#1A7FCF"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/electricity_time_mse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:gravity="center"
+        android:minWidth="24dp"
+        android:padding="3dp"
+        android:textColor="#1A7FCF"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秒"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

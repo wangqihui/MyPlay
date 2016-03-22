@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/bindertest/bindertest.iml" filepath="$PROJECT_DIR$/bindertest/bindertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/facescanning/facescanning.iml" filepath="$PROJECT_DIR$/facescanning/facescanning.iml" />
       <module fileurl="file://$PROJECT_DIR$/netmodel/netmodel.iml" filepath="$PROJECT_DIR$/netmodel/netmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timecount/timecount.iml" filepath="$PROJECT_DIR$/timecount/timecount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verticaltextview/verticaltextview.iml" filepath="$PROJECT_DIR$/verticaltextview/verticaltextview.iml" />
     </modules>
   </component>
 </project>
